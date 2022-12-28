@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>BMI  Calculator</title>
+</head>
+<body>
+
+    <div class="row">
+        <div class="showcase">
+            <h1>
+                BMI
+            </h1>
+            <h2>
+                Body Mass Index
+            </h2>
+            <p>
+                BMI is an inexpensive and easy screening method for weight category: underweight, healthy weight, overweight, and
+                obesity.
+            </p>
+            <p>
+                BMI does not measure body fat directly, but BMI is moderately correlated with more direct measures of body fat.
+                Furthermore, BMI appears to be as strongly correlated with various metabolic and disease outcome as are these
+                more
+                direct measures of body fatness.
+            </p>
+            <p>
+                BMI can be a screening tool, but it does not diagnose the body fatness or health of an individual. To determine
+                if BMI
+                is a health risk, a healthcare provider performs further assessments. Such assessments include skinfold
+                thickness
+                measurements, evaluations of diet, physical activity, and family history
+            </p>
+        
+        
+        </div>
+        <div class="showcase">
+            <label for="yourWeightInKilograms">Please Enter Your Weight In Kilo Grams:</label>
+        
+            <input type="number" id="yourWeightInKilograms" name="yourWeightInKilograms" min="0" max="1000">
+            </br>
+        
+            <label for="yourHeightInMeters">Please Enter Your Weight In Meters:</label>
+        
+            <input type="number" id="yourHeightInMeters" name="yourHeightInMeters" min="0" max="3">
+        
+            </br>
+            <button id="btn">Calculate My BMI</button>
+            <div id="showBMI"></div>
+            <img src="/images/bmi-calculator-in-India-1.png" alt="">
+        </div>
+    </div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>
